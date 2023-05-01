@@ -1,0 +1,54 @@
+@import "variables"; // TODO eject and change to @use
+
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  background-color: $dark-bg;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5rem;
+
+  .intro {
+    flex: 1;
+    font-size: 4rem;
+
+    .accent {
+      color: $accent;
+    }
+
+    .subtext {
+      margin-top: 0.75rem;
+      font-size: 1.5rem;
+      color: lightgrey;
+    }
+
+    .contact {
+      display: flex;
+      align-items: center;
+      margin-top: 0.75rem;
+      font-size: 1.5rem;
+
+      & > * {
+        margin: 0rem 0.25rem;
+      }
+
+      .connection-icon {
+        cursor: pointer;
+
+        &:hover {
+          color: $accent;
+        }
+      }
+    }
+  }
+
+  .profile {
+    flex: 1;
+    text-align: center;
+  }
+}

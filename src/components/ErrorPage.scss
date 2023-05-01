@@ -1,0 +1,41 @@
+@import "variables"; // TODO eject and change to @use
+
+.error-page-container {
+  font-family: "Raleway", sans-serif;
+  font-size: xx-large;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+
+  .img-container {
+    flex: 1;
+    display: flex;
+    min-width: 50%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .error-container {
+    flex: 1;
+    display: flex;
+    min-width: 50%;
+
+    display: flex;
+    flex-direction: column;
+
+    .subtext {
+      color: grey;
+    }
+
+    a {
+      margin-top: 1rem;
+      color: $accent;
+      text-decoration: underline;
+      text-underline-offset: 0.5rem;
+    }
+  }
+}
