@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  margin: 2rem 5rem;
+  flex-direction: column;
+  font-family: Raleway, sans-serif;
+  font-size: 1.25rem;
+
+  .drag-overlay {
+    width: 100%;
+    background-color: red;
+    height: 20px;
+  }
+
+  table {
+    border-spacing: 0;
+
+    th {
+      background-color: yellowgreen;
+      padding: 1rem;
+    }
+
+    td {
+      text-align: center;
+      padding: 1rem;
+      background-color: lightgoldenrodyellow;
+
+      &.drag-handle {
+        padding: 0;
+        text-align: left;
+        cursor: grab;
+
+        &.grabbed {
+          cursor: grabbing;
+        }
+
+        & > * {
+          margin-left: 1rem;
+        }
+
+        .new-row-pos {
+          height: 10px;
+          border-top: 5px solid black;
+        }
+      }
+    }
+
+    tr.grabbed {
+      * {
+        background-color: rgb(226, 226, 188);
+      }
+    }
+  }
+}
