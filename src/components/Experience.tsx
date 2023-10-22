@@ -1,20 +1,16 @@
 import React from "react";
-import Kitty from "./../static/404_kitty.svg";
+import ExperienceEntries from "./../static/Experience";
+import Timeline from "./Timeline";
+import "./Experience.scss";
+import "./Timeline.scss";
 
 const Experience = () => {
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "100vh",
-        fontSize: "4rem",
-        color: "lightgrey",
-      }}
-    >
-      <img width="50%" src={Kitty} />
-      Experience Page is under construction
+    <div className="experience-container">
+      <span className="heading">
+        Total Software Engineering experience: 4.5 years+
+      </span>
+      <Timeline data={ExperienceEntries} />
     </div>
   );
 };
