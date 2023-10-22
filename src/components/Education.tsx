@@ -18,8 +18,13 @@ const Education = () => {
 
         {/* Row 2 */}
         <div className="timeline-content">
-          <h3>Bachelor's in Technology: Computer Science Engineering</h3>
-          <p>Amity University</p>
+          <span className="date">2013 - 2017</span>
+          <span className="degree">
+            Bachelor's in Technology, Computer Science
+          </span>
+          <span className="location">
+            Amity University; (7.47/10 GPA - First Division)
+          </span>
         </div>
         <div className="timeline-middle">
           <div className="timeline-circle"></div>
@@ -32,9 +37,13 @@ const Education = () => {
           <div className="timeline-circle" />
         </div>
         <div className="timeline-content">
-          <h3>High School: 2009-2013</h3>
-          <p>St. Andrews Scots Sr. Sec. School</p>
-          <p>Physics, Chemistry, Math, Computer Science</p>
+          <span className="date">2009 - 2013</span>
+          <span className="degree">
+            High School - Sciences, Computer Science
+          </span>
+          <span className="location">
+            St. Andrews Scots Senior Sec. School (83%)
+          </span>
         </div>
       </div>
     </div>
