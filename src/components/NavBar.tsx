@@ -1,7 +1,6 @@
-import React from "react";
 import { NavLink } from "react-router";
 
-const NavBar = () => {
+export const NavBar = () => {
   const baseClass = "text-inherit no-underline hover:text-accent transition-colors font-semibold";
   const activeClass = "text-accent underline underline-offset-[0.5rem]";
 
@@ -28,5 +27,3 @@ const NavBar = () => {
     </nav>
   );
 };
-
-export default NavBar;

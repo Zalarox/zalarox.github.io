@@ -1,8 +1,7 @@
-import React from "react";
 import { useRouteError, isRouteErrorResponse } from "react-router";
 import Kitty from "./../static/404_kitty.svg";
 
-const ErrorPage = () => {
+export const ErrorPage = () => {
   const error = useRouteError();
   return (
     <div className="font-sans text-2xl md:text-3xl lg:text-4xl flex flex-wrap justify-center items-center h-[100dvh] p-4 text-white bg-dark-bg">
@@ -21,5 +20,3 @@ const ErrorPage = () => {
     </div>
   );
 };
-
-export default ErrorPage;

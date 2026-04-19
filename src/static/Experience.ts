@@ -1,37 +1,37 @@
 import { TimelineData } from "../models/TimelineData";
 
-const ExperienceEntries: TimelineData[] = [
+export const experienceEntries: TimelineData[] = [
   {
-    Date: "Aug 2021 - Present",
-    Title: "Software Developer",
-    Subtitle: "Dayforce",
+    date: "Aug 2021 - Present",
+    title: "Software Developer",
+    subtitle: "Dayforce",
   },
   {
-    Date: "Apr 2020 - Jul 2021",
-    Title: "Tutor (Math, English, Computer Science)",
-    Subtitle: "Paper Edu",
+    date: "Apr 2020 - Jul 2021",
+    title: "Tutor (Math, English, Computer Science)",
+    subtitle: "Paper Edu",
+    partTime: true
   },
   {
-    Date: "Oct 2019 - Feb 2020",
-    Title: "Transcriber and Note-taker",
-    Subtitle:
+    date: "Oct 2019 - Feb 2020",
+    title: "Transcriber and Note-taker",
+    subtitle:
       "Access Centre for Students with Disabilities - Concordia University",
+    partTime: true
   },
   {
-    Date: "Oct 2018 - Jul 2019",
-    Title: "Software Engineer",
-    Subtitle: "PayU Payments",
+    date: "Oct 2018 - Jul 2019",
+    title: "Software Engineer",
+    subtitle: "PayU Payments",
   },
   {
-    Date: "Jun 2017 - Oct 2018",
-    Title: "Associate Software Engineer",
-    Subtitle: "Monster India",
+    date: "Jun 2017 - Oct 2018",
+    title: "Associate Software Engineer",
+    subtitle: "Monster India",
   },
   {
-    Date: "May 2016 - Jul 2016",
-    Title: "Software Development Intern",
-    Subtitle: "Centre for Development of Telematics (C-DOT)",
+    date: "May 2016 - Jul 2016",
+    title: "Software Development Intern",
+    subtitle: "Centre for Development of Telematics (C-DOT)",
   },
 ];
-
-export default ExperienceEntries;

@@ -1,5 +1,6 @@
 export type TimelineData = {
-  Date: string;
-  Title: string;
-  Subtitle: string;
+  date: string;
+  title: string;
+  subtitle: string;
+  partTime?: boolean;
 };

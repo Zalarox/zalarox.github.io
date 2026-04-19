@@ -1,11 +1,10 @@
-import React from "react";
 import ProjectEntries from "../static/Projects";
 
-const Projects = () => {
+export const Projects = () => {
   return (
     <div className="flex flex-col items-center justify-center w-full mt-4 md:mt-8 px-4">
       <h1 className="text-3xl md:text-5xl font-bold font-sans mb-12 text-center text-white">
-        Projects & Explorations
+        My Hobby Projects
       </h1>
       
       <div className="w-full max-w-[90%] md:max-w-6xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -58,5 +57,3 @@ const Projects = () => {
     </div>
   );
 };
-
-export default Projects;
