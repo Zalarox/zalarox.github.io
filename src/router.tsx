@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter } from "react-router";
 import Education from "./components/Education";
 import Home from "./components/Home";
 import ErrorPage from "./components/ErrorPage";

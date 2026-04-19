@@ -7,7 +7,7 @@
 .yarn
 
 # production
-/build
+/dist
 
 # testing
 /coverage

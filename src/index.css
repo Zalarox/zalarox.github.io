@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Raleway", sans-serif;
+  --color-dark-bg: #282c34;
+  --color-accent: #dbac44;
+}
+
+body {
+  background-color: var(--color-dark-bg);
+  color: white;
+}
