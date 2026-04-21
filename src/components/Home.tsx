@@ -11,23 +11,33 @@ export const Home = () => (
       </div>
       <div className="flex items-center mt-8 text-4xl gap-4">
         <a
-          href="https://github.com/zalarox"
+          href="https://github.com/sidbans"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <GithubLogoIcon weight="fill" className="cursor-pointer hover:text-accent transition-colors" />
+          <GithubLogoIcon
+            weight="fill"
+            className="cursor-pointer hover:text-accent transition-colors"
+          />
         </a>
         <a
           href="https://www.linkedin.com/in/siddhantbansal/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <LinkedinLogoIcon weight="fill" className="cursor-pointer hover:text-accent transition-colors" />
+          <LinkedinLogoIcon
+            weight="fill"
+            className="cursor-pointer hover:text-accent transition-colors"
+          />
         </a>
       </div>
     </div>
     <div className="text-center w-full md:w-auto flex justify-center mt-4 md:mt-0">
-      <img className="max-w-[60%] md:max-w-full max-h-[35vh] md:max-h-[60vh] object-contain" src={ProfileGraphic} alt="Profile graphic" />
+      <img
+        className="max-w-[60%] md:max-w-full max-h-[35vh] md:max-h-[60vh] object-contain"
+        src={ProfileGraphic}
+        alt="Profile graphic"
+      />
     </div>
   </div>
 );

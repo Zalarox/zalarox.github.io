@@ -1,6 +1,6 @@
 # Siddhant Bansal's Website
 
-This is the source code for Siddhant Bansal's website [hosted at GitHub Pages](https://zalarox.github.io/).
+This is the source code for Siddhant Bansal's website [hosted at GitHub Pages](https://sidbans.github.io/).
 
 ## Tech stack
 
