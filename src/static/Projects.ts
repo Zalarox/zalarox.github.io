@@ -9,6 +9,12 @@ const ProjectEntries: ProjectEntry[] = [
     repoUrl: "https://github.com/sidbans/act-advisor",
     liveUrl: "https://sidbans.github.io/act-advisor",
   },
+  {
+    name: "FLASH Beeper",
+    description: "A random beeper for the Flash therapy technique",
+    techStack: ["React", "TypeScript", "Tailwind CSS"],
+    repoUrl: "https://github.com/sidbans/flash-beeper"
+  }
 ];
 
 export default ProjectEntries;
