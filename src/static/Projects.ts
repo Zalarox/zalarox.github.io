@@ -11,14 +11,14 @@ const ProjectEntries: ProjectEntry[] = [
   },
   {
     name: "FLASH Beeper",
-    description: "A random beeper for the Flash therapy technique",
+    description: "A random beeper for the Flash therapy technique.",
     techStack: ["React", "TypeScript", "Tailwind CSS"],
     repoUrl: "https://github.com/sidbans/flash-beeper",
     liveUrl: "https://sidbans.github.io/flash-beeper",
   },
   {
     name: "JWT Sandbox",
-    description: "A random beeper for the Flash therapy technique",
+    description: "JWT playground with access/refresh tokens authorization flows.",
     techStack: ["React", "TypeScript", "Node", "Express", "JWT"],
     repoUrl: "https://github.com/sidbans/auth-sandbox",
   },
